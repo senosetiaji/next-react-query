@@ -1,5 +1,5 @@
-
 import ReportFilter from "@/features/reports/components/ReportFilter";
+import ReportList from "@/features/reports/components/ReportList";
 
 export default function HomePage() {
   return (
@@ -15,6 +15,7 @@ export default function HomePage() {
       </header>
 
       <ReportFilter />
+      <ReportList />
     </main>
   );
 }
